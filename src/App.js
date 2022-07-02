@@ -1,25 +1,32 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Head from './Head/Head.jsx';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+let App = () => {
+return <div className='App'> 
+   {/* <Head /> */}
+  <div className='Content'>
+   Контент
+      </div>
+            <div className='Right-Navbar'>
+        Библиотека картинок
+      </div>
+      <div className='Footer'> 
+      подвал
+      </div>
+      <div className='Left-Navbar'>
+левый блок
+      </div>
+  </div>
+  
+
+
 }
+
+
+
+
 
 export default App;
